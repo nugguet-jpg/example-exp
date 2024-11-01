@@ -125,8 +125,8 @@
     <main>
         <!-- Home Section -->
         <section id="home">
-            <h2>Home</h2>
-            <p>This is the home section of Maxipizza Talca.</p>
+            <h2>Bienvenidos a Maxipizza Talca</h2>
+            <p>En Maxipizza Talca, la pasión por la buena comida se une a un ambiente acogedor. Ofrecemos una variedad deliciosa de pizzas elaboradas con ingredientes frescos y de alta calidad, junto con una selección de acompañamientos y postres irresistibles. Ya sea para una cena familiar, una reunión con amigos o un antojo personal, en Maxipizza encontrarás el sabor perfecto que te hará regresar una y otra vez. Además, invitamos a quienes estén interesados en colaborar o hacer negocios con nosotros a acceder a nuestra carta y obtener más información sobre nuestras oportunidades. ¡Ven y disfruta de una experiencia gastronómica única!</p>
         </section>
 
         <!-- About Section -->
