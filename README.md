@@ -91,6 +91,19 @@
             text-align: center;
             padding: 1rem;
         }
+
+        /* Image Gallery Styles */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Three columns */
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%; /* Make images responsive */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
@@ -102,6 +115,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -125,6 +139,20 @@
         <section id="services">
             <h2>Services</h2>
             <p>Here you can list the services or products you offer at Maxipizza Talca.</p>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Check out some pictures from Maxipizza Talca:</p>
+            <div class="gallery">
+                <img src="path/to/image1.jpg" alt="Description of image 1">
+                <img src="path/to/image2.jpg" alt="Description of image 2">
+                <img src="path/to/image3.jpg" alt="Description of image 3">
+                <img src="path/to/image4.jpg" alt="Description of image 4">
+                <img src="path/to/image5.jpg" alt="Description of image 5">
+                <img src="path/to/image6.jpg" alt="Description of image 6">
+            </div>
         </section>
 
         <!-- Contact Section -->
