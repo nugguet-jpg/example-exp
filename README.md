@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to my red-themed website where you can find information about my services, contact me, and learn more about me.">
-    <title>My Red-Themed Website</title>
+    <meta name="description" content="Welcome to Maxipizza Talca, where you can find information about our services, contact us, and learn more about our offerings.">
+    <title>Maxipizza Talca</title>
     <style>
         /* Inline CSS for demonstration */
         body {
@@ -96,7 +96,7 @@
 <body>
     <!-- Header Section -->
     <header>
-        <h1>Welcome to My Red-Themed Website</h1>
+        <h1>Welcome to Maxipizza Talca</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -112,19 +112,19 @@
         <!-- Home Section -->
         <section id="home">
             <h2>Home</h2>
-            <p>This is the home section of my red-themed website.</p>
+            <p>This is the home section of Maxipizza Talca.</p>
         </section>
 
         <!-- About Section -->
         <section id="about">
             <h2>About</h2>
-            <p>This section provides information about me or my website.</p>
+            <p>This section provides information about Maxipizza Talca and what we offer.</p>
         </section>
 
         <!-- Services Section -->
         <section id="services">
             <h2>Services</h2>
-            <p>Here you can list the services or products you offer.</p>
+            <p>Here you can list the services or products you offer at Maxipizza Talca.</p>
         </section>
 
         <!-- Contact Section -->
@@ -152,7 +152,7 @@
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 My Red-Themed Website. All rights reserved.</p>
+        <p>&copy; 2024 Maxipizza Talca. All rights reserved.</p>
     </footer>
 </body>
 </html>
