@@ -53,31 +53,7 @@
             color: #b30000; /* Dark red */
         }
 
-        /* Contact Section */
-        .contact-container {
-            display: flex;
-            flex-direction: row;
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .qr-code {
-            flex: 1;
-            text-align: center;
-            background-color: #fff0f0; /* Light red */
-            padding: 10px;
-            border: 1px solid #b30000;
-            border-radius: 8px;
-        }
-
-        .qr-code img {
-            width: 100px;
-            height: 100px;
-            margin-top: 10px;
-        }
-
         form {
-            flex: 2;
             display: flex;
             flex-direction: column;
             background-color: #fff;
@@ -153,29 +129,21 @@
         <!-- Contact Section -->
         <section id="contact">
             <h2>Contact</h2>
-            <p>Get in touch using the form below or scan the QR code to reach us directly.</p>
+            <p>Get in touch using the form below.</p>
             
-            <div class="contact-container">
-                <!-- QR Code -->
-                <div class="qr-code">
-                    <p>Scan this QR code:</p>
-                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QAaRXhpZgAASUkqAAgAAAAHAAABBAABAAAA... (full base64 string here)" alt="QR Code" />
-                </div>
+            <!-- Contact Form -->
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-                <!-- Contact Form -->
-                <form>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
 
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
+                <button type="submit">Submit</button>
+            </form>
         </section>
     </main>
 
