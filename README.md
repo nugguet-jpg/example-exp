@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to my red-themed website where you can find information about my services, contact me, and learn more about me.">
     <title>My Red-Themed Website</title>
     <style>
         /* Inline CSS for demonstration */
@@ -144,6 +145,8 @@
 
                 <button type="submit">Submit</button>
             </form>
+
+            <p>If you prefer, you can also contact me on <a href="https://wa.me/c/56962454596" target="_blank">WhatsApp</a>.</p>
         </section>
     </main>
 
