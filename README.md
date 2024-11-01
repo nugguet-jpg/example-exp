@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to Maxipizza Talca, where you can find information about our services, contact us, and learn more about our offerings.">
+    <meta name="description" content="Bienvenido a Maxipizza Talca, encontraras informacion de contacto y nuestros servicios.">
     <title>Maxipizza Talca</title>
     <style>
         /* Inline CSS for demonstration */
@@ -109,13 +109,13 @@
 <body>
     <!-- Header Section -->
     <header>
-        <h1>Welcome to Maxipizza Talca</h1>
+        <h1>Bienvenido a Maxipizza Talca</h1>
         <nav>
             <ul>
                 <li><a href="#home">Bienvenido</a></li>
                 <li><a href="#about">Acerca</a></li>
                 <li><a href="#services">Servicios</a></li>
-                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#gallery">Galería</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
@@ -131,56 +131,57 @@
 
         <!-- About Section -->
         <section id="about">
-            <h2>About</h2>
-            <p>This section provides information about Maxipizza Talca and what we offer.</p>
+            <h2>Acerca</h2>
+            <p>Esta sección proporciona información sobre Maxipizza Talca y lo que ofrecemos.</p>
         </section>
 
         <!-- Services Section -->
         <section id="services">
-            <h2>Services</h2>
-            <p>Here you can list the services or products you offer at Maxipizza Talca.</p>
+            <h2>Servicios</h2>
+            <p>Aquí puedes listar los servicios o productos que ofrecemos en Maxipizza Talca.</p>
         </section>
 
         <!-- Gallery Section -->
         <section id="gallery">
-            <h2>Gallery</h2>
-            <p>Check out some pictures from Maxipizza Talca:</p>
+            <h2>Galería</h2>
+            <p>Mira algunas imágenes de Maxipizza Talca:</p>
             <div class="gallery">
-                <img src="path/to/image1.jpg" alt="Description of image 1">
-                <img src="path/to/image2.jpg" alt="Description of image 2">
-                <img src="path/to/image3.jpg" alt="Description of image 3">
-                <img src="path/to/image4.jpg" alt="Description of image 4">
-                <img src="path/to/image5.jpg" alt="Description of image 5">
-                <img src="path/to/image6.jpg" alt="Description of image 6">
+                <img src="path/to/image1.jpg" alt="Descripción de la imagen 1">
+                <img src="path/to/image2.jpg" alt="Descripción de la imagen 2">
+                <img src="path/to/image3.jpg" alt="Descripción de la imagen 3">
+                <img src="path/to/image4.jpg" alt="Descripción de la imagen 4">
+                <img src="path/to/image5.jpg" alt="Descripción de la imagen 5">
+                <img src="path/to/image6.jpg" alt="Descripción de la imagen 6">
             </div>
         </section>
 
         <!-- Contact Section -->
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Get in touch using the form below.</p>
+            <h2>Contacto</h2>
+            <p>Ponte en contacto utilizando el formulario a continuación.</p>
             
             <!-- Contact Form -->
             <form>
-                <label for="name">Name:</label>
+                <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
+                <label for="email">Correo electrónico:</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="message">Message:</label>
+                <label for="message">Mensaje:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
 
-                <button type="submit">Submit</button>
+                <button type="submit">Enviar</button>
             </form>
 
-            <p>If you prefer, you can also contact me on <a href="https://wa.me/c/56962454596" target="_blank">WhatsApp</a>.</p>
+            <p>Si lo prefieres, también puedes contactarme a través de <a href="https://wa.me/c/56962454596" target="_blank">WhatsApp</a>.</p>
         </section>
     </main>
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Maxipizza Talca. All rights reserved.</p>
+        <p>&copy; 2024 Maxipizza Talca. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
+
