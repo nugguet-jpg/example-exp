@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -46,7 +46,7 @@
         /* Menu Section */
         .menu {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Increased column minimum for larger items */
+            grid-template-columns: 1fr; /* Cambiado para usar todo el ancho de la página */
             gap: 1.5rem;
         }
         .menu-item {
@@ -139,6 +139,14 @@
             <div class="menu-item">
                 <h3>Pizza Pepperoni</h3>
                 <p>Queso mozzarella, pepperoni, orégano.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pizza Vegetariana</h3>
+                <p>Verduras frescas, queso mozzarella.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pizza Hawaiana</h3>
+                <p>Jamon, piña, queso mozzarella.</p>
             </div>
         </div>
     </section>
