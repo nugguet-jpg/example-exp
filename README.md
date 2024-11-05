@@ -1,11 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>pagina web basica</title>
 </head>
 <body>
 
@@ -35,7 +36,7 @@
         </div>
     </header>
 
-    <Section class="content saw">
+    <Section class="content sau">
         <h2 class="title">productos</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aliquid ut atque, veniam iure inventore facere sit facilis saepe explicabo quisquam culpa consequatur maxime minus eius dolorum. Maxime, atque repellat!
         </p>     
