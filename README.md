@@ -61,5 +61,30 @@
 
         </div>
     </Section>
+
+    <section class="content about">
+        <h2 class="title">About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tempora, voluptatibus maiores inventore reiciendis voluptatum saepe debitis dolores ad odio fuga corrupti est nemo. Iure suscipit quae porro vero ab!</p>
+
+        <a href="#">Saber Mas</a>
+    </section>
+
+    <section class="content Price">
+        <article class="contain">
+            <h2 class="title">Precio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda reprehenderit enim facilis eligendi unde veniam, suscipit, repellat nemo aut iste doloremque? Eaque, nulla quia fugit harum nam omnis numquam veritatis.</p>
+            <a href="#"><button>Saber precio</button></a>       
+        </article>
+
+    </section>
+
+    <section class="content contact">
+        <h2 class="title">Contacto</h2>
+        <p>5555</p>
+        <figure class="map">
+            <img src="MAX.png" height="220px" width="50%" alt="mapa"></figure>
+
+    </section>
+
 </body>
 </html>
